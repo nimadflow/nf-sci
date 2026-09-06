@@ -1,0 +1,13 @@
+Selected verbatim lines from the submitted ENVIRONMENT.txt.
+This is a public excerpt, not the byte-identical original file.
+Source ENVIRONMENT.txt SHA256: f6194a4f90bc796a20d7243b9b5f71c7ade88302b07ff5aa8e9e1e860b795592
+Source result ZIP SHA256: d0a2d0ceb86c66cb38f107fb4609cf6f0251bf02ffe6fd9b740b20f25909359b
+No independent OS/hardware attestation is asserted.
+
+START_UTC=2026-09-05T11:57:34Z
+RUNNER_COMMAND=python3 -I -S capsule_runner.py verify
+LAUNCHER_TIME_LIMIT_SECONDS=120
+OS_CONTAINMENT=NOT_ENFORCED_BY_THIS_LAUNCHER
+Linux 6.18.33.2-microsoft-standard-WSL2 x86_64 GNU/Linux
+Python 3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]
+PRETTY_NAME="Ubuntu 26.04 LTS"

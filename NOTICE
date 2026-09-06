@@ -1,0 +1,24 @@
+NF-SCI (NimadFlow Sovereign Cell Intelligence)
+Copyright 2026 NimadFlow (pseudonymous author)
+
+This product includes software developed by the NimadFlow project.
+
+Licensing (declared 2026-09-06 by the copyright holder):
+- Source code and fixtures (capsule/, artifacts/, evidence/*.json, evidence/packaging_qa/):
+  Apache License, Version 2.0. See LICENSE.
+- Documentation and specification text (README.md, SPEC.md, CLAIMS.md, EVIDENCE.md,
+  REPRODUCING.md, START_HERE_KO.md, docs/, media/VIDEO_NOTES.md):
+  Creative Commons Attribution 4.0 International (CC BY 4.0). See LICENSE-DOCS.md.
+- Video (media/*.mp4): CC BY 4.0.
+
+Trademarks: "NF-SCI", "NimadFlow", "Dr.Nimad" and "NimadFlow Sovereign Cell Intelligence"
+are trademarks of the author. Consistent with Section 6 of the Apache License 2.0,
+this license does not grant permission to use these trade names or trademarks,
+except as required for reasonable and customary use in describing the origin of the work.
+
+Byte preservation: the original capsule archive
+CAPSULE_V1_ADMISSION_CORE_EXTERNAL_REPRODUCTION_V1.tar.gz
+(6549 bytes, SHA-256 6913e7858ec3eec01baafd4eff4f840fa7da19ef2f15538027c1620c6de99cea)
+and every file listed in SHA256SUMS are preserved unmodified. The license files added
+for this release (LICENSE, NOTICE, LICENSE-DOCS.md, LICENSE_DECISION.md, COPYRIGHT_NOTES_KO.md,
+RELEASE_NOTES.md, SHA256SUMS.release) are additions and are not listed in the original SHA256SUMS.
