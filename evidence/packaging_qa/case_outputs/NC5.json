@@ -1,0 +1,1 @@
+{"actuation_performed":false,"errors":["MISSING_KEYS:rollback_contract_sha"],"monetary_authority_present":false,"part_state":"ADMISSION_ONLY__NO_ACTUATION","request_sha256":"762aa673f662697a0b01061a82004d81c553e106c3f70f4d13024be6749c21ba","schema":"DRNIMAD_ACTUATION_ADMISSION_RESULT_V1","state":"REJECTED"}

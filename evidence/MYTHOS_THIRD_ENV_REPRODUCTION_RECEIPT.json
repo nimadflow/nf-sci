@@ -1,0 +1,117 @@
+{
+ "authored_by": "MYTHOS",
+ "autonomy_attribution": false,
+ "claim_ceiling": [
+  "ADMISSION_CORE_ONLY",
+  "FIXED_SIX_CASES",
+  "NOT_BODY_NOT_DIALOGUE_NOT_AUTONOMY_NOT_TRADING",
+  "THIRD_ENVIRONMENT_IS_A_VENDOR_SANDBOX_NOT_A_USER_MACHINE"
+ ],
+ "cross_machine_comparison": {
+  "note": "Seonghyeok value read from the review document frames (video), not from the raw result zip; raw zip not yet supplied to Mythos.",
+  "receipt_sha_equal": true,
+  "seonghyeok_env_as_stated": "Ubuntu 26.04 LTS, Python 3.14.4, WSL2 6.18.33.2",
+  "seonghyeok_receipt_bytes_as_stated": 4683,
+  "seonghyeok_receipt_sha256_as_stated_in_review_document": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3",
+  "this_env": "Ubuntu 24.04.4 LTS, Python 3.12.3, kernel 6.18.44-fc-v24"
+ },
+ "environment": {
+  "command": "python3 -I -S capsule_runner.py verify",
+  "executor": "MYTHOS (Claude, Anthropic) — reviewer lineage independent of capsule author (GPT)",
+  "kernel": "6.18.44-fc-v24",
+  "machine_class": "ANTHROPIC_SANDBOX_CONTAINER__NOT_USER_OWNED__NOT_SEONGHYEOK_OWNED",
+  "network": "disabled (egress off)",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "run_utc": "2026-09-05T17:58:07Z",
+  "runs": 2
+ },
+ "inputs": {
+  "core_sha256": "121c08224e7f16644549e845cf342ed0a091a70f2bcc58f5a5b8e743488bea0a",
+  "delivery_zip": {
+   "bytes": 7117,
+   "name": "6_CAPSULE_260905.zip",
+   "sha256": "fb81963c53d43dbf3975d076997458b9120d85f5a906f09163e635a8523c086b"
+  },
+  "manifest_records_verified": 10,
+  "manifest_sha256": "ff057585bb3187899d55c81048bef9ba812b52d184cec23c1a6c2a86e35d1dd5",
+  "must_match_sha256": "f49111e1d3e7b15b0b95f6aafb474579e7c99898508a25402a6700b4ae05b56b",
+  "runner_sha256": "5a9744b8ec24be1450f3a5feef13cc0a22a7ff321c21872eef39735b8d4e9979",
+  "tar_gz": {
+   "bytes": 6549,
+   "detached_sha_file_match": true,
+   "sha256": "6913e7858ec3eec01baafd4eff4f840fa7da19ef2f15538027c1620c6de99cea"
+  }
+ },
+ "next_required": [
+  "USER_SEALS_THIS_RECEIPT_IN_OBS_WRITE_ONCE",
+  "SUPPLY_RAW_SEONGHYEOK_RESULT_ZIP_FOR_BYTE_LEVEL_COMPARISON",
+  "CAPSULE_V2_INCLUDE_CASE_OUTPUT_SHAS_AND_ENV_FACTS_IN_RECEIPT"
+ ],
+ "results": {
+  "cases": {
+   "NC1": {
+    "decision_sha256": "ff01e3a9c11a5d7a359bf103bf884f1fa59922900bbdd5c42900e5cf0d987852",
+    "errors": [
+     "FORBIDDEN_KEYS:shell",
+     "EXTRA_KEYS:shell"
+    ],
+    "state": "REJECTED"
+   },
+   "NC2": {
+    "decision_sha256": "7efe823c4efaba46762366f5b71a9892b3f1113c01ae41d67271fa5205670d76",
+    "errors": [
+     "REQUESTER_UID"
+    ],
+    "state": "REJECTED"
+   },
+   "NC3": {
+    "decision_sha256": "47323b6dea689506ad01be3924ee7b75e0ea657ae1b3d735e75e7d574a80bc05",
+    "errors": [
+     "MONETARY_EFFECT_FORBIDDEN",
+     "VERB_EFFECT_MISMATCH"
+    ],
+    "state": "REJECTED"
+   },
+   "NC4": {
+    "decision_sha256": "e7ea896e449719e16830e4d57fdce4cc786af5156f40b98c544d8680e3bab12e",
+    "errors": [
+     "QUALIFIED_VERB_SHA"
+    ],
+    "state": "REJECTED"
+   },
+   "NC5": {
+    "decision_sha256": "6ace1b4f5f8dc93871b4a38ae06507b3e599ce502374eeab2f46fc9a4ce0028f",
+    "errors": [
+     "MISSING_KEYS:rollback_contract_sha"
+    ],
+    "state": "REJECTED"
+   },
+   "PC": {
+    "decision_sha256": "9f1755f80f4ef6ceab20a760aa7cdd4f956b5b101faf0b7993ed31492970f3ef",
+    "errors": [],
+    "state": "ADMITTED"
+   }
+  },
+  "double_run_case_outputs_identical": true,
+  "double_run_receipt_bytes_identical": true,
+  "must_match_all_equal": true,
+  "run1": {
+   "rc": 0,
+   "receipt_bytes": 4683,
+   "receipt_sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3",
+   "stderr_bytes": 0,
+   "stdout": "RESULT=True\\nRC=0\\n"
+  },
+  "run2": {
+   "rc": 0,
+   "receipt_sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3",
+   "stderr_bytes": 0,
+   "stdout": "RESULT=True\\nRC=0\\n"
+  }
+ },
+ "schema": "MYTHOS_CAPSULE_V1_THIRD_ENVIRONMENT_REPRODUCTION_RECEIPT_V1",
+ "scope": "ADMISSION_CORE_EXTERNAL_REPRODUCTION_V1",
+ "truth_promotion": "USER_ONLY__NOT_PERFORMED"
+}

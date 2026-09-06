@@ -1,0 +1,29 @@
+{
+  "scope": "ASSISTED_PACKAGING_QA_OF_FIXED_V1_CAPSULE",
+  "independent_external_reproduction_claim": false,
+  "invocation": [
+    "python3",
+    "-I",
+    "-S",
+    "capsule_runner.py",
+    "verify"
+  ],
+  "invocation_count": 1,
+  "start_utc": "2026-09-06T02:41:39.845726+00:00",
+  "end_utc": "2026-09-06T02:41:40.113925+00:00",
+  "elapsed_seconds": 0.274,
+  "rc": 0,
+  "stdout_bytes": 17,
+  "stderr_bytes": 0,
+  "python_version": "3.12.13",
+  "os": "Linux",
+  "machine": "x86_64",
+  "kernel_release": "6.18.35",
+  "original_capsule_files_unchanged": true,
+  "manifest_members_verified": 10,
+  "receipt_sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3",
+  "os_containment": "NOT_ENFORCED_BY_PACKAGING_INVOCATION",
+  "network_isolation_attested": false,
+  "production_actuation": "NOT_INVOKED",
+  "new_runtime_or_harness_authored": false
+}

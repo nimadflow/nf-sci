@@ -1,0 +1,232 @@
+{
+  "package": "NFSCI_Admission_Capsule_Public_Review_v1",
+  "packaged_on_utc": "2026-09-06T02:48:19.913128+00:00",
+  "purpose": "PUBLIC_TECHNICAL_REVIEW_PACKAGE",
+  "runtime_release_change": false,
+  "original_capsule_tar_sha256": "6913e7858ec3eec01baafd4eff4f840fa7da19ef2f15538027c1620c6de99cea",
+  "original_delivery_zip_sha256": "fb81963c53d43dbf3975d076997458b9120d85f5a906f09163e635a8523c086b",
+  "source_result_zip_sha256": "d0a2d0ceb86c66cb38f107fb4609cf6f0251bf02ffe6fd9b740b20f25909359b",
+  "original_video_sha256": "88ac7e7854061f13a09602cd81e782f9434876af495738cec9d9cc75e40f8f4c",
+  "source_result_distribution": "SELECTED_UNMODIFIED_ITEMS_PLUS_LABELED_ENVIRONMENT_EXCERPT",
+  "source_video_distribution": "LOSSY_SILENT_EXCERPT_AS_DOCUMENTED_IN_MEDIA_VIDEO_NOTES",
+  "qa": "ASSISTED_SINGLE_EXISTING_VERIFY_RUN__NOT_INDEPENDENT_EXTERNAL_ATTESTATION",
+  "license_status": "NO_NEW_LICENSE_GRANT__SEE_LICENSE_STATUS_MD",
+  "files": [
+    {
+      "path": "CLAIMS.md",
+      "bytes": 3214,
+      "sha256": "d5cd7c37b64197d0250d719f5eeb3d3b4d46b1bd1585038fa85bd11fda3e4a8b"
+    },
+    {
+      "path": "EVIDENCE.md",
+      "bytes": 5743,
+      "sha256": "fcbb046760a5236d0edc62417efbfd44d15c0863b131219a13043fe4037d5fca"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 1412,
+      "sha256": "dbfd8550b8969c0a365289a17a47ac8fda3c8a058b60358a1e6ec34b605f728f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3600,
+      "sha256": "149b9cc10f3e87f02d257c6f4f36625efb5f3828749fbd81ec741c8f488366d4"
+    },
+    {
+      "path": "REPRODUCING.md",
+      "bytes": 3224,
+      "sha256": "1d09b44ceb5d20e968904e2d6fe22aca39aa89178ae9249a89726cafafed7a02"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 3488,
+      "sha256": "d9cb1912b62058082075853d5dbb131fead29337ba8ded705e6c125e00fcb585"
+    },
+    {
+      "path": "START_HERE_KO.md",
+      "bytes": 9737,
+      "sha256": "5c0ad3ee470ecf752fef77a45b7ae071c1207aaae791b7d68fe9b65155f9a3c7"
+    },
+    {
+      "path": "artifacts/CAPSULE_V1_ADMISSION_CORE_EXTERNAL_REPRODUCTION_V1.tar.gz",
+      "bytes": 6549,
+      "sha256": "6913e7858ec3eec01baafd4eff4f840fa7da19ef2f15538027c1620c6de99cea"
+    },
+    {
+      "path": "artifacts/CAPSULE_V1_ADMISSION_CORE_EXTERNAL_REPRODUCTION_V1.tar.gz.sha256",
+      "bytes": 124,
+      "sha256": "7b6a5b35f9b9d2dbd65415c4b06294d65dc134f5334c1a7f9536258a3f50f19b"
+    },
+    {
+      "path": "capsule/MANIFEST.json",
+      "bytes": 1369,
+      "sha256": "ff057585bb3187899d55c81048bef9ba812b52d184cec23c1a6c2a86e35d1dd5"
+    },
+    {
+      "path": "capsule/MUST_MATCH.json",
+      "bytes": 2626,
+      "sha256": "f49111e1d3e7b15b0b95f6aafb474579e7c99898508a25402a6700b4ae05b56b"
+    },
+    {
+      "path": "capsule/README_RUN.txt",
+      "bytes": 593,
+      "sha256": "aa4102d84b7c1399666f77ca240fd1aade93f9622f7e8d622bf9ad63e47b9643"
+    },
+    {
+      "path": "capsule/REPRODUCTION_EXECUTOR_ROLE_STATEMENT.md",
+      "bytes": 732,
+      "sha256": "afd11dfb9f95460d48c48ec41b0877c55659bf6ee8d4811958ac84756da8a952"
+    },
+    {
+      "path": "capsule/admission_core.py",
+      "bytes": 3845,
+      "sha256": "121c08224e7f16644549e845cf342ed0a091a70f2bcc58f5a5b8e743488bea0a"
+    },
+    {
+      "path": "capsule/capsule_runner.py",
+      "bytes": 7488,
+      "sha256": "5a9744b8ec24be1450f3a5feef13cc0a22a7ff321c21872eef39735b8d4e9979"
+    },
+    {
+      "path": "capsule/fixtures/NC1_FORBIDDEN_SHELL.json",
+      "bytes": 1120,
+      "sha256": "537edf44f5f467538dabed2b12f0ff8e34d84e32488b45f151ee1c2e2d79ff94"
+    },
+    {
+      "path": "capsule/fixtures/NC2_REQUESTER_UID.json",
+      "bytes": 1090,
+      "sha256": "c485742568b968d56469f26b16dba0cbfc077fefa453a3b87a0e86d44a41b818"
+    },
+    {
+      "path": "capsule/fixtures/NC3_MONETARY_ORDER.json",
+      "bytes": 1082,
+      "sha256": "58a196ad93335390d39f14f613a6794932d304c05ec5c7cf7b0027b30da5923f"
+    },
+    {
+      "path": "capsule/fixtures/NC4_QUALIFIED_VERB_SHA.json",
+      "bytes": 1089,
+      "sha256": "aa86c22239b8596a39abafc36e5b898f88aa2579bd272728205b40c9ff51df51"
+    },
+    {
+      "path": "capsule/fixtures/NC5_MISSING_ROLLBACK.json",
+      "bytes": 998,
+      "sha256": "762aa673f662697a0b01061a82004d81c553e106c3f70f4d13024be6749c21ba"
+    },
+    {
+      "path": "capsule/fixtures/PC.json",
+      "bytes": 1089,
+      "sha256": "1642c0d7c8576047340c779d72425c56927a03229edb33d1472a9437b7b235a2"
+    },
+    {
+      "path": "docs/SOURCES_AND_REGULATORY_NOTES.md",
+      "bytes": 5373,
+      "sha256": "4449bf4bb0ae905b156dc904dd06b566cfe98de28b44c84d3184faed854359ce"
+    },
+    {
+      "path": "evidence/CAPSULE_RECEIPT.run1.json",
+      "bytes": 4683,
+      "sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3"
+    },
+    {
+      "path": "evidence/CAPSULE_RECEIPT.run2.json",
+      "bytes": 4683,
+      "sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3"
+    },
+    {
+      "path": "evidence/MYTHOS_THIRD_ENV_REPRODUCTION_RECEIPT.json",
+      "bytes": 4056,
+      "sha256": "99395c9d102a598fc432543226612c7ae2c2dae577ca9db7c0250f2cca78abe3"
+    },
+    {
+      "path": "evidence/SEONGHYEOK_ENVIRONMENT_EXCERPT.txt",
+      "bytes": 671,
+      "sha256": "a01e1f5dbd3f09923460f756559931d9477a289461d1a2179e638a0a3ccfd8d1"
+    },
+    {
+      "path": "evidence/packaging_qa/CAPSULE_RECEIPT.json",
+      "bytes": 4683,
+      "sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3"
+    },
+    {
+      "path": "evidence/packaging_qa/QA_RECORD.json",
+      "bytes": 867,
+      "sha256": "1cdf660d3e6185f9757a6568f3a83f65da6b566b0deb900e92463c075f08c91c"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/NC1.json",
+      "bytes": 314,
+      "sha256": "ff01e3a9c11a5d7a359bf103bf884f1fa59922900bbdd5c42900e5cf0d987852"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/NC2.json",
+      "bytes": 288,
+      "sha256": "7efe823c4efaba46762366f5b71a9892b3f1113c01ae41d67271fa5205670d76"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/NC3.json",
+      "bytes": 323,
+      "sha256": "47323b6dea689506ad01be3924ee7b75e0ea657ae1b3d735e75e7d574a80bc05"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/NC4.json",
+      "bytes": 293,
+      "sha256": "e7ea896e449719e16830e4d57fdce4cc786af5156f40b98c544d8680e3bab12e"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/NC5.json",
+      "bytes": 309,
+      "sha256": "6ace1b4f5f8dc93871b4a38ae06507b3e599ce502374eeab2f46fc9a4ce0028f"
+    },
+    {
+      "path": "evidence/packaging_qa/case_outputs/PC.json",
+      "bytes": 273,
+      "sha256": "9f1755f80f4ef6ceab20a760aa7cdd4f956b5b101faf0b7993ed31492970f3ef"
+    },
+    {
+      "path": "evidence/packaging_qa/run.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/packaging_qa/run.stdout",
+      "bytes": 17,
+      "sha256": "c2e03d55794ac6431eb4ee65875d4d88bbb3bd77e09d5c98408e943df6916fd9"
+    },
+    {
+      "path": "evidence/seonghyeok_original_items/ARCHIVE_SHA_CHECK.txt",
+      "bytes": 256,
+      "sha256": "c00bcec6c1209fa5fbc7568b95fb08db029d449554c1e6c09ea908c00d78178a"
+    },
+    {
+      "path": "evidence/seonghyeok_original_items/CAPSULE_RECEIPT.json",
+      "bytes": 4683,
+      "sha256": "60d2f1cadd9ac7c2252f548539713e4a8033ed5e236440b39db8831946f78ab3"
+    },
+    {
+      "path": "evidence/seonghyeok_original_items/PAYLOAD_SHA_CHECK_AFTER.txt",
+      "bytes": 44,
+      "sha256": "20e7d7e12ed013a366e17e289c283ed04b5771318be9eedcdb499a726ca84b7d"
+    },
+    {
+      "path": "evidence/seonghyeok_original_items/run.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/seonghyeok_original_items/run.stdout",
+      "bytes": 17,
+      "sha256": "c2e03d55794ac6431eb4ee65875d4d88bbb3bd77e09d5c98408e943df6916fd9"
+    },
+    {
+      "path": "media/VIDEO_NOTES.md",
+      "bytes": 1968,
+      "sha256": "a9c211e42f444f1720ee443ea99ea0c8dbf63b6c84eb981824b2df438973295d"
+    },
+    {
+      "path": "media/evidence-review-walkthrough.mp4",
+      "bytes": 11679514,
+      "sha256": "f68ebe739bc66f96af201fa54afbd6e76327f54fd035d9ca7d61b75a04f0d4cd"
+    }
+  ],
+  "manifest_scope_note": "This descriptive packaging manifest lists all payload files except itself and SHA256SUMS. SHA256SUMS additionally hashes this manifest. Neither checksum mechanism authenticates an issuer."
+}

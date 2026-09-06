@@ -1,0 +1,1 @@
+{"actuation_performed":false,"errors":["MONETARY_EFFECT_FORBIDDEN","VERB_EFFECT_MISMATCH"],"monetary_authority_present":false,"part_state":"ADMISSION_ONLY__NO_ACTUATION","request_sha256":"58a196ad93335390d39f14f613a6794932d304c05ec5c7cf7b0027b30da5923f","schema":"DRNIMAD_ACTUATION_ADMISSION_RESULT_V1","state":"REJECTED"}

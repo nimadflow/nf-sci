@@ -1,0 +1,1 @@
+{"actuation_performed":false,"errors":["FORBIDDEN_KEYS:shell","EXTRA_KEYS:shell"],"monetary_authority_present":false,"part_state":"ADMISSION_ONLY__NO_ACTUATION","request_sha256":"537edf44f5f467538dabed2b12f0ff8e34d84e32488b45f151ee1c2e2d79ff94","schema":"DRNIMAD_ACTUATION_ADMISSION_RESULT_V1","state":"REJECTED"}
